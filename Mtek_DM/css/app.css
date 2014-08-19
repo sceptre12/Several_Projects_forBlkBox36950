@@ -1,0 +1,27 @@
+/*fieldset{
+	margin-top: 100px !important;
+}*/
+form.login1{
+	margin-top: 100px;
+}
+div.front1{
+	margin-top: 100px;
+}
+div.front1 a{
+	text-decoration: none;
+}
+a#sp_submit{
+	text-decoration: none;
+}
+/*#sp_submit button{
+	margin: 0;
+}*/
+div#i_contact{
+	width: 240px !important;
+}
+#i_contact a{
+	text-decoration: none ;
+}
+#i_contact h4,#i_contact h5,#i_contact p,#i_contact address {
+	text-align: center;
+}

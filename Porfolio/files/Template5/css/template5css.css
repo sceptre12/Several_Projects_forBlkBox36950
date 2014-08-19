@@ -1,0 +1,705 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@font-face{
+	font-family: topH;
+	src: url(../../../fonts/AdineKirnber-Script.ttf);
+}
+
+
+.noscrl{
+	overflow: hidden;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	/*background: #EEE8AA; */
+	background-color: #000;
+	font-size: 100%;
+}
+.clear{
+	display: none !important;
+}
+
+.top_alignment{	
+	width: 100%;
+	height: 100%;
+	background: url(../../../img/img33.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+  	background-size: cover;	
+	height: 760px;	
+}
+h1{
+	 font-family: 'lobster', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 6vw;
+}
+.title_top{
+	margin-top: 65px;
+	display: block;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.cent_align{
+	padding-top: 18%;
+	height: 100%;
+}
+.top_alignment h1{
+	margin-top: 0;
+}
+.cent_align h1, .btn_align{
+	color: white;
+}
+ul .sneaky{
+	position: absolute;
+	display: block !important;
+	margin-top: -1px !important;
+	margin-left: -9px !important;
+	background: initial !important;
+	z-index: 1001;
+
+	
+}
+.sneaky li:nth-child(1), .sneaky li:nth-child(2) {
+	border-bottom: 2px solid black;
+}
+.sneaky li{
+	background: hsla(53, 85%, 55%, 0.55) !important;
+	-ms-transition: background 0.55s linear 0s, color 0.55s linear 0s !important;
+-moz-transition: background 0.55s linear 0s, color 0.55s linear 0s !important;
+-webkit-transition: background 0.55s linear 0s, color 0.55s linear 0s !important;
+transition: background 0.55s linear 0s, color 0.55s linear 0s !important;
+z-index: 1001;
+}
+.sneaky li:hover{
+	background: #fff !important;
+}
+
+
+.btn_align{
+	background-color: hsla(0, 5%, 95%, 0.25);
+	display: flex;
+	justify-content: center;
+	margin-left: 45%;
+	margin-right: 45%;
+	height: 50px;
+	border: 5px solid white;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+.cent_align h1{
+	font-family: topH;
+	background-color: hsla(0, 5%, 95%, 0.55);
+	color: hsla(145, 5%, 35%, 0.76);
+}
+.btn_align b{
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-transform: uppercase;
+}
+.btn_align:hover{
+	background: white;
+	color: black;
+}
+.btn_align a{
+	text-decoration: none;
+	color: black;
+}
+/*Menu*/
+nav#menu {
+
+	background: #fff;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	z-index:9999;
+}
+#menu li#view{
+	display: none;
+	-ms-transition: display 5s linear 5, ease-in-out;
+	-moz-transition: display 5s linear 5s, ease-in-out;
+	-webkit-transition: display 5s linear 5s, ease-in-out;
+	transition: display 5s linear 5s, ease-in-out;
+}
+nav#menu ul{
+
+	padding: 0;
+	background: black;
+	margin: 0 auto;
+	display: inline-block;
+	height: 50px;
+}
+nav#menu ul li{
+	float: left;
+
+	padding: 0 20px;
+	background: white;
+	list-style: none;
+	margin-right: 5px;
+	line-height: 50px;
+	height: 50px;
+	-ms-transition: margin 0.1s ease-in-out;
+	-moz-transition: margin 0.1s ease-in-out;
+	-webkit-transition: margin 0.1s ease-in-out;
+	transition: margin 0.1s ease-in-out;
+	position: relative;
+}
+nav#menu ul li:nth-child(1){
+	margin-left: 5px;
+}
+nav#menu ul li.active{
+	background: #778899;
+}
+nav#menu ul li b{
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-family: topH;
+
+}
+nav#menu ul li a{
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-family: topH;
+	display: block;
+	
+}
+nav#menu li#view{
+	-ms-transition: display 0.1s ease-in-out;
+	-moz-transition: display 0.1s ease-in-out;
+	-webkit-transition: display 0.1s ease-in-out;
+	transition: display 0.1s ease-in-out;
+	cursor: pointer;
+
+}
+
+nav#menu.scrolled{
+	margin: 0;
+	background-color: hsla(65, 5%, 5%, 0.76);
+	position: fixed;
+	top: 0;
+}
+
+#menu.scrolled li#view{
+	display: block;
+}
+nav#menu.scrolled ul li{
+	margin: 0;
+}
+li#actsect {
+	cursor: pointer;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-family: topH;
+	display: block;
+}
+@media only screen and (max-width: 730px){
+	nav#menu{
+		display: none;
+	}
+}
+/*end of menu*/
+
+.box_container{
+	width: 100%;
+	height: 100%;
+}
+
+/*contact css*/
+
+.page_cover{
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	background: hsla(0, 5%, 15%, 0.7);
+	padding-top: 95px;
+	width: 100%;
+	height:100%;
+	display: none;
+	z-index: 90000;
+}
+@media only screen and (max-height: 700px){
+	.page_cover{
+		overflow-y: scroll; 
+	}
+}
+
+.contactSect{
+	margin-right: 25%;
+	margin-left: 25%;
+	
+}
+.contactSect h1{
+	display: block;
+	font-size: 6vw;
+	font-family: 'lobster', cursive;
+	text-align: center;
+	margin-bottom: 50px;
+	color:#ccc;
+	text-shadow: 1px 1px 0px #000;
+}
+.contactSect h4{
+	display: block;
+	font-size: 3vw;
+	font-family: 'lobster', cursive;
+	text-align: center;
+	color: #ccc;
+	text-shadow: 1px 1px 0px #000;
+	margin-bottom: 50px;
+}
+.text{
+	float: right;
+}
+input, textarea{
+	padding: 5px 0;
+	border: none;
+	outline: 0;
+	font:normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: transparent;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 0px #000;
+}
+textarea{
+	padding: 10px;
+	width:400px;
+	height: 250px;
+	line-height: 150%;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+}
+@media only screen and (max-width: 1200px){
+	textarea{
+		width:350px;
+	}
+}
+@media only screen and (max-width: 1100px){
+	textarea{
+		width:250px;
+	}
+}
+@media only screen and (max-width: 900px){
+	div.text{
+		float: none;
+		position: absolute;
+		margin-top: 200px;
+	}
+	form{
+		margin-left: 28%;
+	}
+	span.gyp{
+		top: -100px;
+		right: -80px;
+	}
+}
+@media only screen and (max-width: 600px){
+	form{
+		margin-left: 10%;
+	}
+}
+@media only screen and (max-width: 420px){
+	form{
+		margin-left: -30px;
+	}
+	span.gyp{		
+		right: -70px;
+	}
+}
+
+div.name , div.email , div.number{
+	width: 200px;
+}
+.gyp{
+	z-index: 90000;
+	font-size: 34px;
+	border: 3px solid white;
+	color: white;
+	cursor: pointer;
+}
+span.gyp{
+	
+	float: right;
+	transition: top 1s;
+	-moz-transition: top 1s;
+	-ms-transition: top 1s;
+	-webkit-transition: top 1s;
+	
+	transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+
+}
+.form label{
+	margin-left: 10px;
+	color: #fff;
+}
+.submit input{
+	margin: 10px 0;
+	width: auto;
+	padding: 9px 15px;
+	background: rgba(255,255,255, 0.1);
+	font-size:13px;
+	color: #ddd;
+	border: 1px solid rgba(255,255,255, 0.1);
+	cursor: pointer;
+}
+.submit input:hover{
+	background: rgba(255,255,255,0.4);
+	/*changes the shadow around the box.. play around with it */
+	-webkit-box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
+	-mos-box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
+	-ms-box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
+	-o-box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
+	box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
+}
+.animated {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -ms-animation-delay: .3s;
+    -o-animation-delay: .3s;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    };
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    };
+}
+
+@-o-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    };
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    };
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+
+/*boxLayout style*/ 
+/*Does not work for safari another grid layout needs to be made for that browser*/
+
+div#masonry { 
+
+	display: -webkit-flexbox;
+	-webkit-flex-direction: row; 
+	-webkit-flex-wrap: wrap;
+
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: row;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+
+  -webkit-align-content:flex-start;
+  -ms-flex-align-content:flex-start;
+  align-content:flex-start;
+
+  -webkit-justify-content:space-around;
+  -ms-flex-justify-content:space-around;
+  justify-content:space-around;
+
+  height: 100vw;
+  max-height: 30%;
+  font-size: 0;  
+}
+div#masonry img {  
+  width: 33.3%;
+  transition: .8s opacity;
+} 
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10,#a12,#a11{
+	height: 32%;
+}
+
+div#masonry img { opacity: 0.3; }
+div#masonry img:hover { opacity: 1; } 
+
+/* fallback for earlier versions of Firefox */
+
+@supports not (flex-wrap: wrap-reverse) {
+  div#masonry { display: block; }
+  div#masonry img {  
+  display: inline-block;
+  vertical-align: top;
+  }
+}
+@media only screen and (max-width: 1300px){
+	div#masonry img {  
+  height: 30%;
+} 
+}
+/*/tools*/
+
+.no-padding{
+	padding: 0px;
+}
+
+.pbn{
+	padding-bottom: 0px;
+}
+
+.mbn {
+	margin-bottom: 0px;
+}
+
+.banner{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	padding: 1%;
+	background: url('../../../img/img37.jpg') center no-repeat;
+	background-attachment: fixed;
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	    background-size: cover;    
+	    position: relative;
+}
+@media only screen and (max-height: 600px){
+	.banner .welcome{
+		margin-top: 15% !important;
+		
+	}
+}
+@media only screen and (max-height: 400px){
+	.banner .welcome{
+		margin-top: 9% !important;
+		
+	}
+}
+
+.banner .welcome{
+	
+	margin-top: 27%;	
+	text-shadow: 0 2px 2px black;
+	z-index: 100;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .25);
+
+}
+
+.text-white{
+	color: #FFF;
+}
+
+/*front page arrows*/
+.pg_arrows{
+	
+	margin-left: 45%;
+	margin-right: 45%;
+}
+.pg_arrows a{
+	text-decoration: none;
+}
+.pg_arrows a:focus{
+	text-decoration: none;
+	outline: 0;
+	outline-offset: 0;
+	color: inherit;
+}
+.arrow{
+	display: block;
+	font-size: 2vw;
+	color: #fff;
+	cursor: pointer;
+}
+.arrow1{
+	-webkit-animation: colorchanger 2s infinite;
+	-moz-animation: colorchanger 2s infinite;
+	-o-animation: colorchanger 2s infinite;
+	animation: colorchanger 2s infinite;
+	
+
+}
+@keyframes colorchanger{
+	1% {opacity: .3;}
+	3% {opacity: 1;}
+	10% {opacity: .3;}
+}
+@-webkit-keyframes colorchanger{
+	1% {opacity: .3;}
+	3% {opacity: 1;}
+	10% {opacity: .3;}
+}
+@-moz-keyframes colorchanger{
+	1% {opacity: .3;}
+	3% {opacity: 1;}
+	10% {opacity: .3;}
+}
+@-o-keyframes colorchanger{
+	1% {opacity: .3;}
+	3% {opacity: 1;}
+	10% {opacity: .3;}5s
+}
+.arrow2{
+	-webkit-animation: clrchangLing 2s infinite;
+	-moz-animation: clrchangLing 2s infinite;
+	-o-animation: clrchangLing 2s infinite;
+	animation: clrchangLing 2s infinite;
+
+	/*-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-0-animation-timing-function: linear;
+	animation-timing-function: linear;*/
+	-webkit-animation-delay: .25s;
+	-moz-animation-delay: .25s;
+	-o-animation-delay: .25s;
+	animation-delay: .25s;
+	
+}
+@keyframes clrchangLing{
+	3% {opacity: .3;}
+	5% {opacity: 1;}
+	12% {opacity: .3;}
+}
+@-webkit-keyframes clrchangLing{
+	3% {opacity: .3;}
+	5% {opacity: 1;}
+	12% {opacity: .3;}
+}
+@-moz-keyframes clrchangLing{
+	3% {opacity: .3;}
+	5% {opacity: 1;}
+	12% {opacity: .3;}
+}
+@-o-keyframes clrchangLing{
+	3% {opacity: .3;}
+	5% {opacity: 1;}5s
+	12% {opacity: .3;}
+}
+.arrow3{
+	-webkit-animation: clrchng 2s infinite;
+	-moz-animation: clrchng 2s infinite;
+	-o-animation: clrchng 2s infinite;
+	animation: clrchng 2s infinite;
+
+	/*-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-0-animation-timing-function: linear;
+	animation-timing-function: linear;*/
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;	
+
+}
+@keyframes clrchng{
+	5% {opacity: .3;}
+	7% {opacity: 1;}
+	15% {opacity: .3;}
+}
+@-webkit-keyframes clrchng{
+	5% {opacity: .3;}
+	7% {opacity: 1;}
+	15% {opacity: .3;}
+}
+@-moz-keyframes clrchng{
+	5% {opacity: .3;}
+	7% {opacity: 1;}
+	15% {opacity: .3;}
+}
+@-o-keyframes clrchng{
+	5% {opacity: .3;}
+	7% {opacity: 1;}
+	15% {opacity: .3;}
+}
+@media only screen and (max-width: 1300px) , (max-height: 600px){
+	.pg_arrows{
+		margin-top: 20%;
+	}
+}
+@media only screen and (max-height: 400px){
+	.pg_arrows{
+		margin-top: 5%;
+	}
+}
+

@@ -1,0 +1,491 @@
+section{
+	overflow-x: hidden; 
+}
+.section1
+{
+	position: relative;
+	width: 100%;
+	min-height: 1200px;
+	background: url(../img/img2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+.sect1_imgcont{
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+}
+.sect1_img{
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	width: 60%;
+	height: 60%;
+}
+.sect1_img:hover{
+
+}
+.intro_txt{
+	font-size: 78px;
+	color: white;
+}
+.sect1_cont
+{
+	padding-top: 11%;
+}
+.sect1_cont{
+	margin-top: 5%;
+}
+/*NEEDS TO BE WORKED ON */
+.sect1_title{
+	opacity: 1 !important;
+}
+.section2
+{
+	position: relative;
+	width: 100%;
+	min-height: 1200px;
+	background: url(../img/img1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section2 .container, .section3 .container, .section4 .container{
+	margin-top: 5%;
+}
+.jumbotron{
+	margin-top: 5%;
+	border-radius: 300px !important;
+	opacity: .4;
+	text-align: center;
+	padding-top: 27px;
+}
+.section3
+{
+	position: relative;
+	width: 100%;
+	min-height: 1200px;
+	background: url(../img/img5.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section2 div h1{
+	text-align: center;
+}
+.section4
+{
+	position: relative;
+	width: 100%;
+	min-height: 1200px;
+	background: url(../img/img6.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+
+}
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.main{
+	overflow-x:hidden;
+}
+/* Slide 4 */
+.curtainContainer {width: 100%; height: 100%; position: relative;}
+.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
+
+#slide-4 .bcg {
+	background-image:url('../img/img4.jpg')
+}
+.gly_cont{
+	margin-top: 2%;
+	/*Centers item in block*/
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.btn_scroll_pg{
+	text-align: center;
+	margin-right: 46%;
+	margin-left: 46%;
+	padding-top: 1%;
+	
+	border-radius: 99px; /*pick one 99px or 6px*/
+	border-color: rgba(245, 236, 236, 0.36);	
+	border-style: solid;
+	border-width: 2px;
+}
+.glyp_styl{
+	font-size: 5em;
+	color:#A9A9A9;
+	opacity: .6;
+	padding-right: 4.5%;
+}
+.glyp_styl:hover{
+	color: #808080;
+}
+.btn_scroll_pg:hover{
+	border-color:#808080;
+}
+
+/*About page Image folder*/
+
+.about_imgfolder{
+	/*This is the container and there could be a background color or some other style its up to the person*/
+	/*margin-top: 40%;*/
+
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#slider{
+  width:900px; 
+  height:313px;
+  
+}
+#allpic{
+	display: block;
+  width:70px;
+  height:300px;
+  background:#ccc;
+  margin:5px 0 0 5px;
+  float:left;
+  transition:all .1s ease-out; /*I want to slow it down but check the slowed version of the image*/
+  overflow:hidden;
+  border:2px solid #fff;;
+  outline:1px solid #999;
+}
+.slidimg{
+	height: 100% !important;
+}
+#allpic .slidimg:hover{
+	width: 200px !important;
+}
+#allpic:hover {
+  width:200px;
+}
+
+/*End About page image folder*/
+
+/*Image hover effects style*/
+.view_cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.view {
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    border-radius: 50% !important;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 280px;
+    border-radius: 50% !important;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view .img_view {
+  width: inherit;
+  height: inherit;
+    background: url(../img/tumblr_m6jvbwnuBJ1qe4vldo1_500.gif)no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view .img_view2 {
+  width: inherit;
+  height: inherit;
+    background: url(../img/tumblr_lrr2czvqV51qauxo9o1_500.gif)no-repeat center center ; /*tumblr_m1yf3oqVZy1rslzvxo1_250.gif*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view .img_view3 {
+  width: inherit;
+  height: inherit;
+    background: url(../img/tumblr_mg2g8gWanj1qd5adqo1_1280.jpg)no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+/*Second img effect css */
+
+.view-sixth .img_view2{
+  -webkit-transition: all 0.4s ease-in-out 0.5s;
+   -moz-transition: all 0.4s ease-in-out 0.5s;
+   -o-transition: all 0.4s ease-in-out 0.5s;
+   -ms-transition: all 0.4s ease-in-out 0.5s;
+  transition: all 0.4s ease-in-out 0.5s;
+}
+.view-sixth .mask{
+  background-color: rgba(146, 96, 91, 0.5);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in 0.4s;
+   -moz-transition: all 0.3s ease-in 0.4s;
+   -o-transition: all 0.3s ease-in 0.4s;
+   -ms-transition: all 0.3s ease-in 0.4s;
+  transition: all 0.3s ease-in 0.4s;
+}
+.view-sixth h2{
+  opacity: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  -webkit-transform: scale(10);
+   -moz-transform: scale(10);
+   -o-transform: scale(10);
+   -ms-transform: scale(10);
+  transform: scale(10);
+   -webkit-transition: all 0.3s ease-in-out 0.2s;
+   -moz-transition: all 0.3s ease-in-out 0.2s;
+   -o-transition: all 0.3s ease-in-out 0.2s;
+   -ms-transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+.view-sixth p{
+  opacity: 0;
+  -webkit-transform: scale(10);
+   -moz-transform: scale(10);
+   -o-transform: scale(10);
+   -ms-transform: scale(10);
+  transform: scale(10);
+  transition: all 0.3s ease-in-out 0.2s;
+}
+.view-sixth a.info{
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+   -moz-transform: translateY(100px);
+   -o-transform: translateY(100px);
+   -ms-transform: translateY(100px);
+  transform: translateY(100px);
+   -webkit-transition: all 0.3s ease-in-out 0.2s;
+   -moz-transition: all 0.3s ease-in-out 0.2s;
+   -o-transition: all 0.3s ease-in-out 0.2s;
+   -ms-transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+.view-sixth:hover .mask{
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.view-sixth:hover .img_view2{
+  -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.view-sixth:hover h2{
+  opacity: 1;
+  -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 0.1s;
+   -moz-transition-delay: 0.1s;
+   -o-transition-delay: 0.1s;
+   -ms-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.view-sixth:hover p{
+  opacity: 1;
+  -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.view-sixth:hover a.info{
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/*End of second img  css */
+/*End of effects*/
+
+/*Slider Css */
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+/*end of slider css */
+
+@media only screen and (max-width: 1200px){
+	.about_imgfolder{
+		width: 70%;
+		height: 70%;
+	}
+}
+@media only screen and (max-width: 991px){
+	.sect1_img{
+		width: 30% !important;
+		height: 30% !important;
+	}
+
+}
+@media only screen and (max-height: 900px){
+	.section1, .section2, .section3, .section4
+	{
+		min-height: 900px;
+	}
+}
+@media only screen and (max-height: 720px){
+	.section1, .section2, .section3, .section4
+	{
+		min-height: 720px;
+	}
+}
+@media only screen and (max-height: 500px){
+	.section1, .section2, .section3, .section4
+	{
+		min-height: 500px;
+	}
+}
+@media only screen and (min-width: 0px){
+	.sect1_cont
+	{
+		padding-top: 25%  ;
+	}
+}
+@media only screen and (min-width: 650px){
+	.sect1_cont
+	{
+		padding-top: 16% ;
+	}
+}
+@media only screen and (min-width: 1107px){
+	.sect1_cont
+	{
+		padding-top: 7.7%;
+	}
+}
+@media only screen and (min-width: 1499px){
+	.sect1_cont
+	{
+		padding-top: 6.7%;
+	}
+}
+@media only screen and (min-width: 1600px){
+	.sect1_cont
+	{
+		padding-top: 5.7%;
+	}
+}
+@media only screen and (min-width: 1700px){
+	.sect1_cont
+	{
+		padding-top: 5%;
+	}
+}
+@media only screen and (min-width: 1800px){
+	.sect1_cont
+	{
+		padding-top: 4.8%;
+	}
+}
+@media only screen and (min-width: 2000px){
+	.sect1_cont
+	{
+		padding-top: 4.5%;
+	}
+}

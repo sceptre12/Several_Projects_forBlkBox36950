@@ -1,0 +1,570 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.page_top h1{
+  font-size: 9em;
+  margin-top: 80px;
+}
+.pgtop_cont{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+body {
+  font-family: 'PT Sans', Arial, Verdana;
+  
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3pcx;
+  color: #222;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+
+  margin: auto;
+  position: relative;
+  background-color: black;
+  border-bottom-style: inset;
+  border-bottom-width: 5px;
+  border-bottom-color: hsla(33, 65%, 65%, 1);
+  z-index: 7;
+}
+.menu li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FAEBD7;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  z-index: 9;
+}
+
+#switch_content{
+  padding-top: 100px;
+}
+
+a.active {
+  background-color: hsla(33, 65%, 65%, 1);
+  font-size: 3em;
+  color: black;
+  /*pointer-events: none;*/
+}
+li.slider {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #F4A460;
+  z-index: 8;
+  -webkit-transition: left 0.5s, background-color 0.4s;
+  transition: left 0.5s, background-color 0.4s;
+}
+.menu li:nth-child(1):hover ~ .slider,
+.menu li:nth-child(1):focus ~ .slider,
+.menu li:nth-child(1):active ~ .slider {
+  left: 0;
+  background-color: #F0D28C;
+}
+.menu li:nth-child(2):hover ~ .slider,
+.menu li:nth-child(2):focus ~ .slider,
+.menu li:nth-child(2):active ~ .slider {
+  left: 25%;
+  background-color: #F0E68C;
+}
+.menu li:nth-child(3):hover ~ .slider,
+.menu li:nth-child(3):focus ~ .slider,
+.menu li:nth-child(3):active ~ .slider {
+  left: 50%;
+  background-color: #F0D28C;
+}
+.menu li:nth-child(4):hover ~ .slider,
+.menu li:nth-child(4):focus ~ .slider,
+.menu li:nth-child(4):active ~ .slider {
+  left: 75%;
+  background-color: #F0BE8C;
+}
+.h_background{
+ /* i had to take out fixed from the background because that messes with the gif image */
+  background: url(../../../img/img_tum6.gif)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1200px;
+}
+.page_top{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background: url(../../../img/img1.jpg) no-repeat center center fixed ;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.top_cover{
+  background: hsla(90, 5%, 25%, 0.52);
+  height: 100%;
+  width: 100%
+}
+.hme_top{
+  background-color: hsla(79, 95%, 45%, 0.56);
+  border-color: hsla(0, 95%, 5%, 0.3);
+  display: block;
+  
+}
+.btn_hme{
+  display: block;
+  float: right;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.hme_top2{
+  margin-top: 7%;
+  background-color: hsla(19, 5%, 15%, 0.7);
+}
+.hme_top2 h1{
+  float: left;
+  color: hsla(33, 5%, 85%, 1);
+  padding-left: 10%;
+}
+.item_hme{
+  display: block;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  padding-top: 5%;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+  text-align: center;
+  
+  font-size: 2em;
+
+  color: hsla(154, 5%, 85%, 1);
+}
+.item_hme:hover{
+   background-color: hsla(154, 95%, 55%, 0.44) ; 
+}
+ .top3:hover{
+  background-color: hsla(34, 95%, 55%, 1) !important;
+}
+.picbar{
+  display: block;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  height: auto;
+  background-color: hsla(37, 5%, 25%, 0.76);
+}
+.picbar .row{
+  margin-right: 0px; 
+}
+.pic_balign{
+  padding-top: 5%;
+  padding-bottom:5% ;
+}
+.pic_balign img{
+  display: block;
+  margin:auto;
+  width: 200px ;
+  height: 200px;
+}
+.p_bckgrnd{
+  background: hsla(90, 5%, 25%, 0.52);
+}
+.display{
+  display: none;
+}
+.sect1 p{
+  
+  color: black;
+  font-size: 20px;
+}
+
+/*pic bar image effects */
+.view_cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.view {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+    border-radius: 50% !important;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 250px;
+    border-radius: 50% !important;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view .img_view {
+  width: inherit;
+  height: inherit;
+    background: url(../../../img/tumblr_mxwyzzdP7D1simzoto1_500.gif)no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view .img_view2 {
+  width: inherit;
+  height: inherit;
+    background: url(../../../img/tumblr_mxwyzzdP7D1simzoto1_500.gif)no-repeat center center ; /*tumblr_m1yf3oqVZy1rslzvxo1_250.gif*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view .img_view3 {
+  width: inherit;
+  height: inherit;
+    background: url(../../../img/tumblr_mxwyzzdP7D1simzoto1_500.gif)no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+    display: block;
+    position: relative;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+/*First img effect*/
+.view-first .img_view {
+  transition: all 0.2 linear;
+}
+.view-first .mask{
+  opacity: 0;
+  background-color: hsla(40, 95%, 55%, 0.53);
+  transition: all 0.4s ease-in-out;
+}
+.view-first h2{
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first p{
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first a.info{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first:hover .img_view{
+  transform: scale(1.1);
+}
+.view-first:hover .mask{
+  opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.view-first:hover p{
+  transition-delay: 0.1s;
+}
+.view-first:hover a.info{
+  transition-delay: 0.2s;
+}
+/*End of first img css*/
+
+/*Start of second img css*/
+.view-sixth .img_view2{
+  -webkit-transition: all 0.4s ease-in-out 0.5s;
+   -moz-transition: all 0.4s ease-in-out 0.5s;
+   -o-transition: all 0.4s ease-in-out 0.5s;
+   -ms-transition: all 0.4s ease-in-out 0.5s;
+  transition: all 0.4s ease-in-out 0.5s;
+}
+.view-sixth .mask{
+  background-color: hsla(40, 95%, 55%, 0.53);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in 0.4s;
+   -moz-transition: all 0.3s ease-in 0.4s;
+   -o-transition: all 0.3s ease-in 0.4s;
+   -ms-transition: all 0.3s ease-in 0.4s;
+  transition: all 0.3s ease-in 0.4s;
+}
+.view-sixth h2{
+  opacity: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  -webkit-transform: scale(10);
+   -moz-transform: scale(10);
+   -o-transform: scale(10);
+   -ms-transform: scale(10);
+  transform: scale(10);
+   -webkit-transition: all 0.3s ease-in-out 0.2s;
+   -moz-transition: all 0.3s ease-in-out 0.2s;
+   -o-transition: all 0.3s ease-in-out 0.2s;
+   -ms-transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+.view-sixth p{
+  opacity: 0;
+  -webkit-transform: scale(10);
+   -moz-transform: scale(10);
+   -o-transform: scale(10);
+   -ms-transform: scale(10);
+  transform: scale(10);
+  transition: all 0.3s ease-in-out 0.2s;
+}
+.view-sixth a.info{
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+   -moz-transform: translateY(100px);
+   -o-transform: translateY(100px);
+   -ms-transform: translateY(100px);
+  transform: translateY(100px);
+   -webkit-transition: all 0.3s ease-in-out 0.2s;
+   -moz-transition: all 0.3s ease-in-out 0.2s;
+   -o-transition: all 0.3s ease-in-out 0.2s;
+   -ms-transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+.view-sixth:hover .mask{
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.view-sixth:hover .img_view2{
+  -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.view-sixth:hover h2{
+  opacity: 1;
+  -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 0.1s;
+   -moz-transition-delay: 0.1s;
+   -o-transition-delay: 0.1s;
+   -ms-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.view-sixth:hover p{
+  opacity: 1;
+  -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.view-sixth:hover a.info{
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/*End of second img css*/
+
+/*Start of third img css*/
+.view-fifth .img_view3{
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view-fifth .mask {
+   background-color: hsla(40, 95%, 55%, 0.53);
+   -webkit-transform: translateX(-300px);
+   -moz-transform: translateX(-300px);
+   -o-transform: translateX(-300px);
+   -ms-transform: translateX(-300px);
+   transform: translateX(-300px);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view-fifth h2 {
+   background: rgba(255, 255, 255, 0.5);
+   color: #000;
+   -webkit-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+   -moz-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+   box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+.view-fifth p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   color: #333;
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+/*For this to work properly one of the below css must be commented out */
+.view-fifth:hover .mask {
+   -webkit-transform: translateX(0px);
+   -moz-transform: translateX(0px);
+   -o-transform: translateX(0px);
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+}
+/*.view-fifth:hover .img_view3 {
+   -webkit-transform: translateX(300px);
+   -moz-transform: translateX(300px);
+   -o-transform: translateX(300px);
+   -ms-transform: translateX(300px);
+   transform: translateX(300px);
+}*/
+
+/*For this to work properly one of the css above must be commented out*/
+.view-fifth:hover p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+        
+/*End of effects */
+
+@media only screen and (max-width: 1400px ){
+  .page_top h1{
+    font-size: 8em;
+  }
+}
+@media only screen and (max-width: 1250px ){
+  .page_top h1{
+    font-size: 6em;
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 600px ){
+  .page_top h1{
+    font-size: 4.7em;
+    margin-top: 10%;
+  }
+  #Portfolio{
+    font-size: 1.5em;
+  }
+  a.active{
+    font-size: 2em;
+  }
+  
+}
+@media only screen and (max-width: 400px ){
+  .page_top h1{
+    font-size: 3.7em;
+    margin-top: 25%;
+  }
+}
