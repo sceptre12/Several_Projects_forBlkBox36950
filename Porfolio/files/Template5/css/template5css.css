@@ -390,13 +390,7 @@ span.gyp{
     -o-animation-delay: .3s;
 }
 
-.animated.hinge {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-}
+
 
 @-webkit-keyframes fadeInDown {
     0% {
