@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>App</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+		<meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1"/>
+	</head>
+	<body>
+	<div data-role="page"  id="home">
+		<header data-role="header">
+			<h1>List App</h1>
+			<a href="#">Home</a>
+			<a href="#contact">Contact</a>
+		</header>
+		<!-- the rel = external is used becuase the page needs
+		to do a full page reload which clears out the ajax hash in the url
+		the is critical becuase the ajax hash tracks the ajax history in the
+		page which helps the back button know where to go back to -->
+		<!-- <div data-role="main" class="ui-content">
+			<h1>Yolo aba</h1>
+
+			<a href="#CheeseBurger" rel="external">Page2</a>
+		</div> -->
+		<article data-role="main" class="ui-content">
+			<ul data-role="listview" data-filter="true">
+					<li>
+						<a href="#CheeseBurger" data-transition="flip">
+						<h1>CheeseBurger Quesadillas</h1>
+						<img src="img/img12.jpg" alt="CheeseBurger Quesadillas">
+						<p>
+							The Amazing taste of a cheeseburger combined with the amazing taste of a quesadiia
+						</p>
+						</a>
+					</li>
+					<li>
+						<a href="#JerkChicken" data-transition="flip">
+						<h1>JerkChicken Quesadillas</h1>
+						<img src="img/img8.jpg" alt="JerkChicken Quesadillas">
+						<p>
+							The Amazing taste of a JerkChicken combined with the amazing taste of a quesadiia
+						</p>
+						</a>
+					</li>
+					<li>
+						<a href="#BlueBerry" data-transition="flip">
+						<h1>BlueBerry Quesadillas</h1>
+						<img src="img/img16.jpg" alt="BlueBerry Quesadillas">
+						<p>
+							The Amazing taste of a BlueBerry combined with the amazing taste of a quesadiia
+						</p>	
+						</a>
+					</li>
+				
+			</ul>
+		</article>
+		<footer data-role="footer" data-positon="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="grid">Menu</a></li>
+					<li><a href="#" data-icon="info">info</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>	<!-- page -->
+
+	<div data-role="page" id="CheeseBurger">
+		<header data-role="header">
+			<h1>CheeseBurger Quesadillas</h1>
+			<a href="#home" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Home</a>
+			<a href="#contact" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Contact</a>
+		</header>
+		<img class="fullscreen" src="img/img12.jpg" alt="CheeseBurger Picture">
+		
+	</div>	<!-- page -->
+
+	<div data-role="page" id="JerkChicken">
+		<header data-role="header">
+			<h1>JerkChicken Quesadillas</h1>
+			<a href="#home" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Home</a>
+			<a href="#contact" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Contact</a>
+		</header>	
+		<img class="fullscreen" src="img/img8.jpg" alt="JerkChicken Quesadillas">	
+	</div>	<!-- page -->
+
+	<div data-role="page" id="BlueBerry">
+		<header data-role="header">
+			<h1>BlueBerry Quesadillas</h1>
+			<a href="#home" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Home</a>
+			<a href="#contact" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Contact</a>
+		</header>		
+		<img class="fullscreen" src="img/img16.jpg" alt="BlueBerry Quesadillas">
+	</div>	<!-- page -->
+	</body>
+	<div data-role="page" id="contact">
+		<header data-role="header">
+			<h1>Contact</h1>
+			<a href="#home" data-icon="home" data-transition="flip" data-direction="reverse" data-iconpos="notext">Home</a>
+		</header>
+		<form>
+			<input type="text" name="name" placeholder="Name">
+			<input type="text" name="email" placeholder="Email">
+			<input type="text" name="number" placeholder="Number">
+			
+			<input type="submit" value="Submit">
+		</form>
+		<footer data-role="footer" data-positon="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="grid">Menu</a></li>
+					<li><a href="#" data-icon="info">info</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+</html>
