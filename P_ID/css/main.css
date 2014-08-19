@@ -142,9 +142,135 @@ a {
 	font-size: 7vw;
 	color: #ecf0f1;
 }
+#topSide{
+	float: right;
+}
 
+/*section 2 h1 animations */
 
+.sect2Animate{
+	-webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.8s;
+    -moz-animation-duration: 1.8s;
+    -ms-animation-duration: 1.8s;
+    -o-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+    animation-delay: .8s;
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    -ms-animation-delay: .8s;
+    -o-animation-delay: .8s;
+}
+@-webkit-keyframes fadeRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    };
+}
 
+@-moz-keyframes fadeRight {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(-50px);
+    }
 
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    };
+}
+
+@-o-keyframes fadeRight {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    };
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    };
+}
+.fadeRight{
+	-webkit-animation-name: fadeRight;
+    -moz-animation-name: fadeRight;
+    -o-animation-name: fadeRight;
+    animation-name: fadeRight;
+}
+@-webkit-keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    };
+}
+
+@-moz-keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    };
+}
+
+@-o-keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    };
+}
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    };
+}
+.fadeLeft{
+	-webkit-animation-name: fadeLeft;
+    -moz-animation-name: fadeLeft;
+    -o-animation-name: fadeLeft;
+    animation-name: fadeLeft;
+}
+ 
+/* end of sect2 title animation*/
 

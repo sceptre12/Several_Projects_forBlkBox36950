@@ -35,3 +35,11 @@ $(document).ready(function(){
 		
 	});
 });
+
+$(document).ready(function(){
+	$('#intro_btnpos button').click(function(){
+	 $('.jumbotron h1').addClass('sect2Animate'), 
+	 $('.jumbotron h1#topSide').addClass('fadeLeft'), 
+	 $('.jumbotron h1#leftSide').addClass('fadeRight')  
+	});
+});
