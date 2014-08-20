@@ -4,6 +4,9 @@ html , body{
 	margin: 0;
 	padding: 0;
 }
+html{
+	overflow-x: hidden;
+}
 .noScroll{
 	overflow: hidden;
 }
@@ -289,14 +292,51 @@ a {
     -o-animation-name: fadeLeft;
     animation-name: fadeLeft;
 }
+.row div{
+	
+	max-height: 100%;
+	height: 500px ;
+}
+
+.pic1{
+	background: url(../img/img52.png);
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+
+}
+.pic2{
+	background: url(../img/img53.jpg);
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+}
+.pic3{
+	background: url(../img/img10.png);
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+}
+.pic4{
+	background: url(../img/img60.jpg);
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+}
  
 /* end of sect2 title animation*/
 
 /*End of Section 2 effects*/
 
 /*Section 3 effects*/
-
-#sect3{
-	
-	
+.br{
+	border-top:2px solid black;
 }
