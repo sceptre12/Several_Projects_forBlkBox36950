@@ -39,7 +39,7 @@ body{
 
 /*Section1 effects*/
 .intro{	
-	background: url(../img/img50.jpg) center no-repeat;
+	background: url(../img/img27.jpg) center no-repeat;
 		-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -148,25 +148,33 @@ a {
 
 /*Section 2 effects*/
 
-.jumbotron{
-	margin-top: 0;
-	background: #7f8c8d;
-	box-shadow: 0px 10px 20px #888888;
+.head_piece{
+	padding: 0 2%;
+    background: hsla(59, 45%, 85%, 0.49);
 }
 #sect2{
-	position: relative;
+	
+    background: hsla(42, 75%, 75%, 1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	width: 100%;
-    min-height: 670px;
-	height: 100%;
-    max-height: 100%;
+    min-height: 100%;
+    
+	
 }
-.jumbotron h1{
+.head_piece h1{
 	font-size: 7vw;
 	color: #ecf0f1;
 	text-shadow: 8px 7px 9px #000;
 }
 #topSide{
 	float: right;
+    margin-top: 0;
+}
+#leftSide{
+    margin-top: 0;
 }
 
 /*section 2 h1 animations */

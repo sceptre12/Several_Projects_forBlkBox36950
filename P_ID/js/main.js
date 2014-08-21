@@ -39,9 +39,9 @@ $(document).ready(function(){
 // Jubotron title effects
 $(document).ready(function(){
 	$('#intro_btnpos button').click(function(){
-	 $('.jumbotron h1').addClass('sect2Animate'), 
-	 $('.jumbotron h1#topSide').addClass('fadeLeft'), 
-	 $('.jumbotron h1#leftSide').addClass('fadeRight')  
+	 $('.head_piece h1').addClass('sect2Animate'), 
+	 $('.head_piece h1#topSide').addClass('fadeLeft'), 
+	 $('.head_piece h1#leftSide').addClass('fadeRight')  
 	});
 });
 
