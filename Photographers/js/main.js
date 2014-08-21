@@ -1,3 +1,3 @@
-$(document).ready(function(){
-	$(document.body).fadeIn(1500);
-});
+// $(document).ready(function(){
+// 	$(document.body).fadeIn(1500);
+// });
