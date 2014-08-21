@@ -36,6 +36,7 @@ $(document).ready(function(){
 	});
 });
 
+// Jubotron title effects
 $(document).ready(function(){
 	$('#intro_btnpos button').click(function(){
 	 $('.jumbotron h1').addClass('sect2Animate'), 
@@ -43,3 +44,25 @@ $(document).ready(function(){
 	 $('.jumbotron h1#leftSide').addClass('fadeRight')  
 	});
 });
+
+// this is for the overlay js
+$(document).ready(function(){
+	$('.overlay').each(function(i,el){
+		el.id= i  + 1;
+	});
+
+	$('.overlay').mouseenter(function(){
+        $(this).find('h1').css('display', 'block')
+        $(this).find('p').css('display', 'block')       
+		$(this).find('h1').addClass('fadeUp overlayAnimate')
+        $(this).find('p').addClass('fadeUp overlayAnimate')
+        
+	});
+$('.overlay').mouseleave(function(){
+        $(this).find('h1').removeClass('fadeUp overlayAnimate')
+        $(this).find('p').removeClass('fadeUp overlayAnimate')
+        $(this).find('h1').fadeOut('fast')
+        $(this).find('p').fadeOut('fast')
+});
+});
+
