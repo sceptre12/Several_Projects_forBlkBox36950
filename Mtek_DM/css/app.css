@@ -25,3 +25,22 @@ div#i_contact{
 #i_contact h4,#i_contact h5,#i_contact p,#i_contact address {
 	text-align: center;
 }
+#frgt_psw{
+	margin-right: 20px;
+	float: right;
+}
+.ui-block-b{
+	margin-left: 25%;
+margin-right: 25%;
+}
+.ui-block-a{
+	margin-left: 25%;
+margin-right: 25%;
+}
+#indx_head h3{
+	text-align: center;
+	color: #80ff00;
+}
+form.login1{
+	margin-top: 50px ;
+}
