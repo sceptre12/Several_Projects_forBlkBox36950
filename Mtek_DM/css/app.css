@@ -44,3 +44,10 @@ margin-right: 25%;
 form.login1{
 	margin-top: 50px ;
 }
+li a img{
+	height: 80px !important;
+
+}
+.uP_UserInfo{
+	margin-bottom: 30px;
+}
