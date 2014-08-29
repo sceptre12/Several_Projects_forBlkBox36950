@@ -1,6 +1,14 @@
 /*fieldset{
 	margin-top: 100px !important;
 }*/
+*{
+	/*@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff") format("woff");
+	}*/
+}
 form.login1{
 	margin-top: 100px;
 }
@@ -64,4 +72,13 @@ li a img{
 }
 .front1 .ui-block-b{
 	margin-bottom: 10px;
+}
+.pos_main button{
+	margin-left: 18% ;
+	width: 65% !important;
+
+	/*margin-left: 30px;*/
+}
+.pos_main a{
+	text-decoration: none;
 }

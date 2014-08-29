@@ -13,14 +13,14 @@
 		<div data-role="page" id="MainScreen">
 			<header data-role="header">
 				<h1>Home Screen</h1>
-				<a href="index.html" data-icon="power" data-iconpos="notext" >Sign Out</a>
+				<a href="index.html" data-icon="gear" data-iconpos="notext" >Sign Out</a>
 			</header>
-			<div data-role="main" class="ui-content">
-				<ul data-role="listview">
-					<li  data-icon="user"><a href="userProfile.html"><h1>My Profile</h1></a></li>
-					<li data-icon="star"><a href="sellBooks.html"><h1>Sell Books</h1></a></li>
-					<li data-icon="search"><a href="browseLib.html"><h1>Browse Libraries</h1></a></li>
-				</ul>
+			<div data-role="main" class="ui-content pos_main">
+				
+					<a href="userProfile.html" ><button class="ui-btn ui-icon-user ui-btn-icon-left"><h1>Profile</h1></button></a>
+					<a href="sellBooks.html"><button class="ui-btn ui-icon-delete ui-btn-icon-left"><h1>Sell </h1></button></a>
+					<a href="browseLib.html"><button class="ui-btn ui-icon-delete ui-btn-icon-left"><h1>Buy</h1></button></a>
+				
 			</div>
 			<footer data-role="footer" data-position="fixed">
 				<nav data-role="navbar">
@@ -46,7 +46,7 @@
 					<address>1930 nw 99av apt999 Miami, Fl 33087</address>
 
 				</div>
-			 		<a href="#info" data-rel="close"><button >Close</button></a> 	
+			 		<a href="#info" data-rel="close"><button class="ui-btn" >Close</button></a> 	
 			</div>
 			<div data-role="panel" id="i_About" data-position="right" data-display="overlay">
 				<header data-role="header">
@@ -56,7 +56,7 @@
 					
 
 				</div>
-			 		<a href="#info" data-rel="close"><button >Close</button></a> 	
+			 		<a href="#info" data-rel="close"><button class="ui-btn" >Close</button></a> 	
 			</div>
 			<header data-role="header" >
 				<h1>Help</h1>
