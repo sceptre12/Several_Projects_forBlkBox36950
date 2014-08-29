@@ -57,9 +57,7 @@ li a img{
 
 }
 .uP_UserInfo{
-	/*margin-right: 50px;
-	margin-left: 50px;
-	margin-bottom: 30px;*/
+	border-radius: 0px;
 }
 .p_lbl{
 	margin-top: 20px !important;
