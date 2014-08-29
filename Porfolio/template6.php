@@ -12,7 +12,7 @@
 <body>
 	<?php include 'commonHeaders/template5commonhead.php'; ?>
 
-	<div class="g_contain">
+	<!-- <div class="g_contain"> -->
 		<div class="gallery">
 	      <ul>
 	        <li>
@@ -116,7 +116,7 @@
 
 	      </ul>
     </div><!-- .gallery -->
-	</div> <!-- Container -->
+	<!-- </div> -->
 		
 	
 	
