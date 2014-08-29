@@ -57,3 +57,10 @@ li a img{
 	margin-top: 20px !important;
 	margin-bottom: 40px !important;
 }
+.index_Text h2{
+	margin-bottom: 0px;
+	text-align: center;
+}
+.front1 .ui-block-b{
+	margin-bottom: 10px;
+}
