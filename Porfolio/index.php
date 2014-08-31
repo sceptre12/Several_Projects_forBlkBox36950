@@ -41,7 +41,7 @@
 							<li><a href="template2.php">Template 2</a></li>
 							<li><a href="template3.php">Template 3</a></li>
 							<li><a href="template4.php">Template 4</a></li>
-							<li><a href="template5.php">Template 5</a></li>
+							<li><a href="template6.php">Template 6</a></li>
 						</ul>
 					</li>
 

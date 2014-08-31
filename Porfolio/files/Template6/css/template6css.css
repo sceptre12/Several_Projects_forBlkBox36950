@@ -313,6 +313,92 @@ span.gyp{
 	-o-box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
 	box-shadow: rgba(0,0,0, 0.6) 0px 0px 5px;
 }
+
+/*gallery style layout */
+/*for this gallery all images have to be the same size or the gallery breaks */
+/*This gallery breaks in IE and firefox*/
+.g_contain{
+	width:100%;
+	height: 100%;
+}
+.gallery * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  	  -ms-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gallery {
+	width: 100%;
+	height: auto;
+	
+}
+
+.gallery li {
+	width: 25%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.transform {
+	-webkit-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+		-ms-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+       -moz-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+	     -o-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+	        transition: all .25s cubic-bezier(.2, .31, .36, 1);
+}
+
+.gallery .a {
+	width: 101%;
+	height: 100%;
+	display: block;
+	
+}
+/*Something with the images or whatever is causing there to be gap when mouse swipped over image from a right direction*/
+.gallery img {
+	position: relative;
+    width: auto;
+    height: auto;
+    width: 101%;
+    height: 30%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    -webkit-backface-visibility: hidden;
+    	-ms-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+    		backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    	-ms-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+    		transform: translateZ(0);
+}
+
+.gallery .info {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	background:  #EEE8AA;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transform: translateZ(0);
+    	-ms-transform: translateZ(0);
+   	        transform: translateZ(0);
+}
+
+.gallery .title {
+	
+	font-weight: bold;
+	font-size: 20px;
+    color: rgb(43, 43, 43);
+    position: relative;
+    top: 43%;
+}
 .animated {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
@@ -384,7 +470,7 @@ span.gyp{
     100% {
         opacity: 1;
         transform: translateY(0);
-    };
+    }
 }
 
 .fadeInDown {
@@ -396,91 +482,7 @@ span.gyp{
 /*end of menu*/
 
 
-/*gallery style layout */
-/*for this gallery all images have to be the same size or the gallery breaks */
-/*This gallery breaks in IE and firefox*/
-.g_contain{
-	width:100%;
-	height: 100%;
-}
-.gallery * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  	  -ms-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-       -o-box-sizing: border-box;
-          box-sizing: border-box;
-}
 
-.gallery {
-	width: 100%;
-	height: auto;
-	
-}
-
-.gallery li {
-	width: 25%;
-	position: relative;
-	float: left;
-	overflow: hidden;
-}
-
-.transform {
-	-webkit-transition: all .25s cubic-bezier(.2, .31, .36, 1);
-		-ms-transition: all .25s cubic-bezier(.2, .31, .36, 1);
-       -moz-transition: all .25s cubic-bezier(.2, .31, .36, 1);
-	     -o-transition: all .25s cubic-bezier(.2, .31, .36, 1);
-	        transition: all .25s cubic-bezier(.2, .31, .36, 1);
-}
-
-.gallery .a {
-	width: 100%;
-	height: 100%;
-	display: block;
-	
-}
-/*Something with the images or whatever is causing there to be gap when mouse swipped over image from a right direction*/
-.gallery img {
-	position: relative;
-    width: auto\9;
-    height: auto;
-    width: 100%;
-    height: 30%;
-    vertical-align: middle;
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-    -webkit-backface-visibility: hidden;
-    	-ms-backface-visibility: hidden;
-       -moz-backface-visibility: hidden;
-    		backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
-    	-ms-transform: translateZ(0);
-       -moz-transform: translateZ(0);
-    		transform: translateZ(0);
-}
-
-.gallery .info {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 10;
-	background:  #EEE8AA;
-    text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -webkit-transform: translateZ(0);
-    	-ms-transform: translateZ(0);
-   	        transform: translateZ(0);
-}
-
-.gallery .title {
-	
-	font-weight: bold;
-	font-size: 20px;
-    color: rgb(43, 43, 43);
-    position: relative;
-    top: 43%;
-}
 
 
 
