@@ -12,35 +12,36 @@
 <body>
 	<?php include 'commonHeaders/template5commonhead.php'; ?>
 
+	<!-- <div class="g_contain"> -->
 		<div class="gallery">
 	      <ul>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img35.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">Birkenau</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img36.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">Lol</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img37.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">fweonfwefw</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img38.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">ewfwefef</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img39.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">rtshrthart</h1></div>
 	            </div>
 	        </li>
@@ -52,61 +53,61 @@
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img41.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">rtshrthart</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img42.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">erthearh</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img33.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">Birkenau</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img32.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">Lol</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img45.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">fweonfwefw</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img46.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">ewfwefef</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img47.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">rtshrthart</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img30.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">erthearh</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img49.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">rtshrthart</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img28.jpg" alt="" />
+	                <img src="img/img40.jpg" alt="" />
 	                <div class="info"><h1 class="title">erthearh</h1></div>
 	            </div>
 	        </li>
@@ -115,7 +116,7 @@
 
 	      </ul>
     </div><!-- .gallery -->
-	
+	<!-- </div> -->
 		
 	
 	
@@ -133,7 +134,7 @@
 
 	<script src="js/respond.js"></script>
 	<!-- START SOUND CODE V4.1 HTML5 -->
-	<script language="JavaScript" type="text/javascript">
+	<script  type="text/javascript">
 	<!--
 
 	// PLAYER VARIABLES

@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>App</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/Blue.min.css">
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/app.css">
@@ -13,14 +14,15 @@
 		<div data-role="page" id="sellBooks">
 			<header data-role="header">
 				<h1>Add Books</h1>
-				<a href="mainScreen.html" data-icon="back" data-iconpos="notext">Back</a>
+				<a href="mainScreen.html" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
 			</header>
 			<div data-role="main" class="ui-content">
 				<form>
-					<label for="sb_bookT">Tittle:</label>
+					
 					<input type="text" data-clear-btn="true" name="bookT" id="sb_bookT" placeholder="Title">
-					<label for="sb_isbnNum">Isbn Number:</label>
-					<input type="text" data-clear-btn="true" name="bookT" id="sb_isbnNum" placeholder="isbnNumber">
+					
+					<input type="text" data-clear-btn="true" name="price" id="sb_price" placeholder="Price">
+					<input type="text" data-clear-btn="true" name="isbn" id="sb_isbnNum" placeholder="isbnNumber">
 					<label for="sb_quality">Book Quality:</label>
 					<select name="quality" id="sb_quality" class="select " value="Condition">
 						<option value="1">New</option>
