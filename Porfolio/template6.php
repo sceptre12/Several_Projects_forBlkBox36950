@@ -23,13 +23,13 @@
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img40.jpg" alt="" />
+	                <img src="img/img47.jpg" alt="" />
 	                <div class="info"><h1 class="title">Lol</h1></div>
 	            </div>
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img40.jpg" alt="" />
+	                <img src="img/img47.jpg" alt="" />
 	                <div class="info"><h1 class="title">fweonfwefw</h1></div>
 	            </div>
 	        </li>
@@ -47,7 +47,7 @@
 	        </li>
 	        <li>
 	          <div class="a">            
-	                <img src="img/img40.jpg" alt="" />
+	                <img src="img/img47.jpg" alt="" />
 	                <div class="info"><h1 class="title">erthearh</h1></div>
 	            </div>
 	        </li>
