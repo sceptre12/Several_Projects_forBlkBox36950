@@ -2,7 +2,7 @@
 		<h1>A Dash Of Sweet</h1>
 	</div>
 	
-		<?php include 'navbars/template5nav.html'; ?>
+		<?php include 'navbars/navbar.html'; ?>
 		<div class="top_alignment">
 			<div class="cent_align">
 					<h1>Island Style</h1>
