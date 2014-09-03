@@ -51,22 +51,6 @@ $(document).ready(function(){
 		el.id= i  + 1;
 	});
 
-	/*
-	$('.overlay').mouseenter(function(){
-        $(this).find('h1').css('display', 'block')
-        $(this).find('p').css('display', 'block')       
-		$(this).find('h1').addClass('fadeUp overlayAnimate')
-        $(this).find('p').addClass('fadeUp overlayAnimate')
-        
-	});
-
-	$('.overlay').mouseleave(function(){
-        $(this).find('h1').removeClass('fadeUp overlayAnimate')
-        $(this).find('p').removeClass('fadeUp overlayAnimate')
-        $(this).find('h1').fadeOut('fast')
-        $(this).find('p').fadeOut('fast')
-	});*/
-
 	$('.overlay').on("mouseenter mouseleave", function(e){
 		if (e.type === 'mouseenter') {
 			$(this).find('h1').css('display', 'block')
