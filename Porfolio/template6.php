@@ -10,7 +10,60 @@
 	<link rel="stylesheet" type="text/css" href="files/Template6/css/template6css.css">	
 </head>
 <body>
-	<?php include 'commonHeaders/template5commonhead.php'; ?>
+	
+	<div class="title_top">
+		<div class="img_banner">
+			
+		</div>
+		<!-- <h1>A Dash Of Sweet</h1> -->
+	</div>
+	
+				<nav id="menu">
+			<ul>
+				<li><a href="#">My Story</a></li>
+				<li><a href="#">Menu</a></li>
+				<li id="view" class="active">
+					<b>A Dash Of Sweet</b>
+					<ul class="clear" >
+						<li><a href="template5.php">Home Layout 1</a></li>
+						<li><a href="template6.php">Home Layout 2</a></li>
+						<li><a href="template7.php">Home Layout 3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Specialties</a></li>
+				<li id="actsect" >Contact</li>
+			</ul>
+		</nav>
+		<div class="page_cover ">
+			<div class="contactSect">
+				<span class="gyp glyphicon glyphicon-remove"></span>
+				<h1 class="animated fadeInDown">Hungry Already?</h1><br>
+				<h4 class="animated fadeInDown">Send us your request</h4>
+				<form name='contactform' class="form" action="navbars/contact.php" method='POST'>
+					<div class="text animated fadeInDown">
+						<textarea name="message" form="contactform">Test Message</textarea>
+					</div>
+					<div class="name animated fadeInDown">
+						<input type="text" name="name" id="name" placeholder="Name" />
+					</div>
+					<div class="email animated fadeInDown">
+						<input type="text" name="email" id="email" placeholder="Email" />
+					</div>
+					<div class="number animated fadeInDown">
+						<input type="text" name="number" id="number" placeholder="Number" />
+					</div>
+					<div class="submit animated fadeInDown">
+						<input type="submit" value="Submit" />
+					</div>
+				</form>
+			</div>	
+		</div>	
+		<div class="top_alignment">
+			<div class="cent_align">
+					<h1>Island Style</h1>
+				<div class="btn_align"><b><a href="#">Welcome</a></b></div>
+			</div>
+		</div>
 
 	<!-- <div class="g_contain"> -->
 		<div class="gallery">
