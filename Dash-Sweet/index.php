@@ -41,10 +41,12 @@
 				<span class="gyp glyphicon glyphicon-remove"></span>
 				<h1 class="animated fadeInDown">Hungry Already?</h1><br>
 				<h4 class="animated fadeInDown">Send us your request</h4>
-				<form name='contactform' class="form" action="navbars/contact.php" method='POST'>
+				<div class="formpos">
+					<form name='contactform' class="form" action="navbars/contact.php" method='POST'>					
 					<div class="text animated fadeInDown">
 						<textarea name="message" form="contactform">Test Message</textarea>
 					</div>
+
 					<div class="name animated fadeInDown">
 						<input type="text" name="name" id="name" placeholder="Name" />
 					</div>
@@ -57,7 +59,10 @@
 					<div class="submit animated fadeInDown">
 						<input type="submit" value="Submit" />
 					</div>
+
 				</form>
+				</div>
+				
 			</div>	
 		</div>	
 		<div class="top_alignment">
