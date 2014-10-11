@@ -1,0 +1,383 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+.p_adjst p{
+		/*line-height: 15px;*/
+}
+td{
+	vertical-align: middle;
+} 
+th {
+	text-align: center;
+}
+tr td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(6), td:nth-child(7), td:nth-child(8){
+	text-align: center;
+
+}
+td{
+	vertical-align: middle !important;
+}
+@media screen and (max-width: 691px){
+	table{
+		width: 1101px !important;
+	}
+}
+.sect1{
+	width: 100%;
+	height: 450px;
+
+
+}
+
+
+/*Christina's Css*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/*html {
+  position: relative;
+  min-height: 100%;
+}*/
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	
+}
+
+p, a, li, td{
+	
+	line-height: 24px;
+	font-weight:400;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400;
+}
+
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+   	color: rgb(0,45,98);
+	color: #002d62;
+}
+
+
+a.thumbnail-link:link,
+a.thumbnail-link:visited
+a.thumbnail-link:hover
+a.thumbnail-link:active {
+	color: rgb(0,0,0);
+	color: #000;
+}
+
+
+
+.blue-bar{
+	background-color: rgb(0,45,98);
+	background: #002d62;
+	padding:15px;
+	color:#fff;
+}
+
+.gold-bar{
+	background-color: rgb(197,150,12);
+	height: 5px;
+	position:relative;
+}
+
+.gold-bar-hearder{
+	margin-bottom: -1px;
+}
+
+#grey-container{
+	background-color: #F2F2F2 ;	
+	background-color: rgb(242,242,242);
+}
+
+#grey-container h1 span,
+#grey-container h2 span,
+#grey-container h3 span,
+#grey-container h4 span,
+#grey-container h5 span,
+#grey-container h6 span {
+	color: #002d62;
+	color: rgb(0,45,98);
+	background-color:rgb(197,150,12);
+	padding: 5px;
+	color: #fff !important;
+	text-transform:uppercase;
+}
+
+#grey-container a:link,
+#grey-container a:visited,
+#grey-container a:hover,
+#grey-container a:active {
+	color: rgb(0,0,0);
+	color: #000;
+}
+
+#grey-container img{
+    border:1px solid #021a40;
+}
+
+
+#image{
+	position:relative;
+	width:100%;
+	margin-top: -20px;
+	padding-bottom: 18.5% 
+}
+
+#image h1{
+	position:absolute;
+	top: 55%;
+	left: 0;
+	width: 100%;
+}
+
+#image h1 span { 
+   color: white; 
+   letter-spacing: -1px;  
+   background: rgb(0,45,98); /* fallback color */
+   background: rgba(0,45,98, 0.85);
+   padding: 25px; 
+}
+
+.banner{
+	position:absolute;
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:100%;
+        
+    
+}
+
+.gsi-seal{
+	position:absolute;
+	top: -95px;
+	left: 87%;
+	z-index:1000;
+}
+
+.gsi-seal-no-nav{
+    position:absolute;
+	top: -50px;
+	left: 87%;
+	z-index:1000;
+}
+
+
+
+.carousel-caption h2{
+	color:#fff !important;
+}
+
+
+.imgHeadshots{
+	padding-right:15px;
+}
+
+
+.gold-header{
+	background-color:rgb(197,150,12);
+	padding: 5px;
+	color: #fff !important;
+	text-transform:uppercase;
+	font-size:17.5px;
+}
+
+/*  NAV  */
+
+
+
+.navbar-inverse .navbar-brand {
+	color: rgb(255,255,255) !important;
+	font-size:14px !important;
+}
+
+.navbar-inverse{
+	background-color:rgb(0,45,98) !important;
+	border-color: rgb(0,45,98) !important;
+}
+
+.navbar-inverse .gold-nav{
+	background-color:rgb(197,150,12) !important;
+	border-color: rgb(197,150,12) !important;
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff !important;
+}
+ 
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus{
+	color:#fff !important;
+	background-color: #c5960c !important;
+}
+
+.navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+	/*background-color: rgba(255,255,255, 0.3) !important;*/
+	background-color:transparent !important;
+}
+
+.navbar-inverse .navbar-toggle{border-color:#fff !important;}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus{background-color:#002d62}.navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}
+
+
+/* Featured Board Members collapse accordin */
+.slider{
+	display:none;
+}
+.collapseSlider{
+	display:none;
+}
+.sliderExpanded .collapseSlider{
+	display:block;
+}
+.sliderExpanded .expandSlider{
+	display:none;
+}
+
+
+/* BUTTONS */
+.btn-ue { 
+  color: #FFFFFF; 
+  background-color: #002D62; 
+  border-color: ; 
+} 
+ 
+.btn-ue:hover, 
+.btn-ue:focus, 
+.btn-ue:active, 
+.btn-ue.active, 
+.open .dropdown-toggle.btn-donors { 
+  color: #002d62; 
+  background-color: #f1b813; 
+  border-color: ; 
+} 
+ 
+.btn-ue:active, 
+.btn-ue.active, 
+.open .dropdown-toggle.btn-ue { 
+  background-image: none; 
+} 
+ 
+.btn-ue.disabled, 
+.btn-ue[disabled], 
+fieldset[disabled] .btn-ue, 
+.btn-ue.disabled:hover, 
+.btn-ue[disabled]:hover, 
+fieldset[disabled] .btn-ue:hover, 
+.btn-ue.disabled:focus, 
+.btn-ue[disabled]:focus, 
+fieldset[disabled] .btn-ue:focus, 
+.btn-ue.disabled:active, 
+.btn-ue[disabled]:active, 
+fieldset[disabled] .btn-ue:active, 
+.btn-ue.disabled.active, 
+.btn-ue[disabled].active, 
+fieldset[disabled] .btn-ue.active { 
+  background-color: #002D62; 
+  border-color: ; 
+} 
+ 
+.btn-ue .badge { 
+  color: #002D62; 
+  background-color: #FFFFFF; 
+}
+
+
+
+/* FOOTER  */
+#footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height:auto;
+  background-color: rgb(0,45,98);
+}
+
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#footer strong, #footer p, #footer a,
+#footer .footer-links p, 
+#footer .footer-links a,
+#footer .footer-links strong {
+	color: #fff !important;
+	font-size:14px;
+}
+
+.footer-links a, 
+.footer-links li{
+	margin-bottom: -5px;
+	
+}
+
+#footer .copyright,
+#footer .copyright a{
+	font-size: 12px ;
+}
+
+#footer .copyright a{
+	text-decoration:underline;
+}
+
+#footer .social{
+	margin-right:2px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.navbar-inverse .gold-nav{
+	background-color:rgb(0,45,98) !important;
+	border-color: rgb (0,45,98) !important;
+	}
+	
+#grey-container h1 span,
+#grey-container h2 span,
+#grey-container h3 span,
+#grey-container h4 span,
+#grey-container h5 span,
+#grey-container h6 span {
+	color: #002d62;
+	color: rgb(0,45,98);
+	background-color:rgb(197,150,12);
+	padding: 5px;
+	color: #fff !important;
+	text-transform:uppercase;
+}
+
+
+}
+
+
+@media only screen and (max-width : 992px) {
+	.gsi-seal{
+		left:82% !important;
+		
+	}
+	
+}
+
+
+
+
+

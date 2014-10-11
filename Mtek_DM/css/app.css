@@ -1,14 +1,22 @@
-/*fieldset{
-	margin-top: 100px !important;
-}*/
-*{
-	/*@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff") format("woff");
-	}*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+html,body, h1{
+	font-size: 20px !important;
+	font-family: 'Open Sans', sans-serif !important;
+	text-shadow: none !important;
+	margin-top: 0;
+margin-left: 10%;
+margin-right: 10%;
 }
+@media screen and (max-width: 350px){ /*Change up the size for all the headers */
+	header h1{ 
+		margin-top: 0;
+		margin-left: 5%;
+		margin-right: 5%;
+		overflow: visible;
+	}
+}
+/*The above css needs to be reasigned to their respective classes... move away from calling the css states on global objects*/
 form.login1{
 	margin-top: 100px;
 }
@@ -58,6 +66,7 @@ li a img{
 }
 .uP_UserInfo{
 	border-radius: 0px;
+	border: 0px;
 }
 .p_lbl{
 	margin-top: 20px !important;
@@ -87,4 +96,16 @@ li a img{
 }
 .pos_main .ui-btn{
 	padding: 30px;
+}
+
+/*New updates 10/10/2014 */
+button, header, a, #sb_quality-button, footer{
+	border: 0px #ffffff !important;
+}
+.ui-input-text{
+	border-style: none;
+}
+#blib{
+	margin-right: 1%;
+	margin-left: 1%;
 }
