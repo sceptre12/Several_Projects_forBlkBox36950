@@ -15,7 +15,7 @@
 		<div data-role="page" id="userProfile">
 			<header data-role="header" data-position="fixed">
 				<h1>My Profile</h1>
-				<a href="mainScreen.html" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Home</a>
+				<a href="mainScreen.php" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Home</a>
 				<div class="uP_UserInfo ui-body ui-body-a ui-corner-all"  >
 					<h3>Name:</h3>
 					<h3>Email:</h3>

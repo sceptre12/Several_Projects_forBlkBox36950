@@ -27,7 +27,7 @@
 					<!-- <label for="lp_psrwd">Password:</label> -->
 					<input type="password" data-clear-btn="true" name="pwd" id="lp_pswrd" placeholder="Password" >
 					<div id="frgt_psw">
-						<a href="forgotpassword.html">Forgot Password?</a>
+						<a href="forgotpassword.php">Forgot Password?</a>
 					</div>
 					<!-- <fieldset class="ui-grid-a" >
 					 the data-themes are for the styling I'm guessing 
@@ -38,11 +38,11 @@
 				<div class="ui-grid-a front1">
 					<!-- When linking the rel="external" should be used when linking to an external site or domain 
 					Use the data-ajax="false" when linking to a page within the same domain -->
-					<div class="ui-block-b "><a  href="mainScreen.html" data-ajax="false" ><div class="button-wrap"><button class="ui-btn ui-corner-all">Sign in</button></a></div></div>
+					<div class="ui-block-b "><a  href="mainScreen.php" data-ajax="false" ><div class="button-wrap"><button class="ui-btn ui-corner-all">Sign in</button></a></div></div>
 					<div class="index_Text">
 						<h4>Not a Member?</h4>
 					</div>
-					<div class="ui-block-a"><div class="button-wrap"><a href="signup.html" data-transition="flip"  ><button class=" ui-btn ui-corner-all">Get Started!</button></a></div></div>
+					<div class="ui-block-a"><div class="button-wrap"><a href="signup.php" data-transition="flip"  ><button class=" ui-btn ui-corner-all">Get Started!</button></a></div></div>
 					
 				</div>
 

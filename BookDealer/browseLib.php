@@ -14,7 +14,7 @@
 		<div data-role="page" id="browseLib">
 			<header data-role="header">
 				<h1>Enter Search Item</h1>
-				<a href="mainScreen.html" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
+				<a href="mainScreen.php" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
 				
 			</header>
 			<div data-role="main">

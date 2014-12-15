@@ -14,7 +14,7 @@
 		<div data-role="page" id="sellBooks">
 			<header data-role="header">
 				<h1>Add Books</h1>
-				<a href="mainScreen.html" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
+				<a href="mainScreen.php" data-icon="bars" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
 			</header>
 			<div data-role="main" class="ui-content">
 				<form>
@@ -37,7 +37,7 @@
 			<footer data-role="footer" data-position="fixed">
 				<nav data-role="navbar">
 					<ul>
-						<li><a href="mainScreen.html" data-icon="check" >Submit</a></li>
+						<li><a href="mainScreen.php" data-icon="check" >Submit</a></li>
 					</ul>
 					
 				</nav>

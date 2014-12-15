@@ -19,17 +19,17 @@
 			</header>
 			<div data-role="main" class="ui-content pos_main">
 					<div class="ui-grid-solo">
-    					<div class="ui-block-a"><a href="userProfile.html"  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user ui-nodisc-icon">Profile</a></div>
+    					<div class="ui-block-a"><a href="userProfile.php"  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user ui-nodisc-icon">Profile</a></div>
 					</div>
 					<div class="ui-grid-solo">
     					<div class="ui-block-a">
-    						<a href="sellBooks.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-shop ui-nodisc-icon">Sell
+    						<a href="sellBooks.php" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-shop ui-nodisc-icon">Sell
     						</a>
     					</div>
 					</div>
 					<div class="ui-grid-solo">
     					<div class="ui-block-a">
-    						<a href="browseLib.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-tag ui-nodisc-icon">Buy</a></div>
+    						<a href="browseLib.php" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-tag ui-nodisc-icon">Buy</a></div>
 					</div>
 			</div>
 		</div>

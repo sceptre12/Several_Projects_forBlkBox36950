@@ -25,7 +25,7 @@
 				<nav data-role="navbar">
 					<ul>
 						<li>
-							<a href="index.html">Submit</a>
+							<a href="index.php">Submit</a>
 						</li>
 					</ul>
 				</nav>			

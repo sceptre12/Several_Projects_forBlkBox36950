@@ -47,7 +47,7 @@
 		<div data-role="page" id="sp_Main">
 			<header data-role="header">
 				<h1>Sign Up</h1>
-				<a href="index.html" data-icon="back" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
+				<a href="index.php" data-icon="back" data-iconpos="notext" class="ui-nodisc-icon">Back</a>
 			</header>
 			<div data-role="main" class="ui-content">
 				<form>
@@ -75,7 +75,7 @@
 			<footer data-role="footer" data-position="fixed">
 				<nav data-role="navbar">
 					<ul>
-						<li><a href="index.html" data-icon="check" >Submit</a></li>
+						<li><a href="index.php" data-icon="check" >Submit</a></li>
 					</ul>
 					
 				</nav>
